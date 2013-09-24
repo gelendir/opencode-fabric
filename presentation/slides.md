@@ -262,3 +262,4 @@ Thank you !
  * github : gelendir
  * twitter : @gelendir
  * email : gregory.eric.sanderson@gmail.com
+ * repo : http://github.com/gelendir/opencode-fabric
