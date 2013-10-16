@@ -266,6 +266,7 @@ running the code:
     [localhost] out: sudo password:
     [localhost] out: 
 
+---
 
 Other nice features
 ===================
