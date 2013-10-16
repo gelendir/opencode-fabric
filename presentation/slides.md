@@ -280,8 +280,8 @@ Real world examples
 ===================
 
  * LFS build scripts : https://github.com/gelendir/lfs-build
- * XiVO prepare-rc-server : https://gitorious.org/xivo/xivo-tools/
- * XiVO prepare-rc-client : https://gitorious.org/xivo/xivo-tools/
+ * XiVO prepare-rc-server : https://github.com/xivo-pbx/xivo-tools/blob/master/dev-tools/prepare-rc-server
+ * XiVO prepare-rc-client : https://github.com/xivo-pbx/xivo-tools/blob/master/dev-tools/prepare-rc-client
 
 
 ---
@@ -293,3 +293,4 @@ Thank you !
  * twitter : @gelendir
  * email : gregory.eric.sanderson@gmail.com
  * repo : http://github.com/gelendir/opencode-fabric
+ * presentation : http://remarks.sinaapp.com/repo/gelendir/opencode-fabric/presentation/
