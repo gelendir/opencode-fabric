@@ -100,8 +100,8 @@ running the code:
 
 ---
 
-Sync some files
-===============
+Git workflow
+============
 
     from fabric.api import *
 
@@ -127,12 +127,12 @@ Sync some files
 
     def push(path=DEFAULT_PATH):
         with cd(path):
-            local('git push origin master:%s' % DEPLOY_BRANCH)
+            local('git push origin %s' % DEPLOY_BRANCH)
 
 ---
 
-Sync some files
-===============
+Git workflow
+============
 
 running the code:
 
