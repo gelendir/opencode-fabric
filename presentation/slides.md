@@ -235,13 +235,43 @@ Roles
 
 ---
 
+
+Sudo
+====
+
+    from fabric.api import run, sudo, env, settings
+
+    def create_www():
+        with settings(sudo_user='http'):
+            sudo("mkdir -p /tmp/www")
+            sudo("mkdir -p /tmp/www/root")
+
+    def create_cache():
+        sudo("mkdir -p /tmp/cache", user="mysql")
+
+---
+
+Sudo
+====
+
+running the code:
+
+    $ fab -H localhost create_www
+    [localhost] Executing task 'create_www'
+    [localhost] sudo: mkdir -p /tmp/www
+    [localhost] Login password for 'gregory': 
+    [localhost] out: sudo password:
+    [localhost] out: 
+    [localhost] sudo: mkdir -p /tmp/www/root
+    [localhost] out: sudo password:
+    [localhost] out: 
+
+
 Other nice features
 ===================
 
  * console.confirm
- * with sudo()
  * parallel execution
- * roles
  * hosts
 
 ---
