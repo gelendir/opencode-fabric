@@ -116,17 +116,17 @@ Git workflow
 
 
     def add(path=DEFAULT_PATH):
-        with cd(path):
+        with lcd(path):
             local('git add -i')
 
 
     def commit(path=DEFAULT_PATH):
-        with cd(path):
+        with lcd(path):
             local('git commit -v')
 
 
     def push(path=DEFAULT_PATH):
-        with cd(path):
+        with lcd(path):
             local('git push origin %s' % DEPLOY_BRANCH)
 
 ---
